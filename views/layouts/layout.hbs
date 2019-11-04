@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <script src="https://kit.fontawesome.com/0974e02f45.js" crossorigin="anonymous"></script>
+    <script src="/javascripts/script.js"></script>
+    <title> {{ title }} </title>
+</head>
+<body>
+    <header> 
+	<div id="nav-top">
+	    <a id="logo" href="/"></a>
+	    <form id="search"> 
+		<input type="text" name="search" placeholder="Have fun^^" id="search-input"> 
+		<button id="search-btn"><i class="fas fa-search"></i></button>
+	    </form>
+	    <nav id="catg-h" class="large">
+		<a class="text-content" href="/sports" style="margin-right: 10px"><i class="fas fa-volleyball-ball" style="margin-right: 5px"></i>SPORTS</a>
+		<a class="text-content" href="/food" style="margin-right: 10px"><i class="fas fa-pizza-slice" style="margin-right: 5px"></i>FOOD</a>
+		<a class="text-content" href="/fashion" style="margin-right: 10px"><i class="fas fa-tshirt" style="margin-right: 5px"></i>FASHION</a>
+		<a class="text-content" href="/electronic" style="margin-right: 10px"><i class="fas fa-laptop" style="margin-right: 5px"></i>ELECTRONIC</a>
+		<a class="text-content" href="/pet" style="margin-right: 10px"><i class="fas fa-paw" style="margin-right: 5px"></i>PET</a>
+		<a class="text-content" href="/home" style="margin-right: 10px"><i class="fas fa-couch" style="margin-right: 5px"></i>HOME</a>
+		<a class="text-content" href="/stationery"><i class="fas fa-pen" style="margin-right: 5px"></i>stationery</a>
+	    </nav>
+	    <nav id="feature" class="large">
+		<div class="dropdown">
+		    <a class="icon-content"><i class="fas fa-user-circle"></i></a>
+		    <div class="dropdown-content">
+			<a class="text-content" href="/login">LOGIN</a>
+			<a class="text-content" href="/login">SIGNUP</a>
+			<a class="text-content" href="/edit_acc">INFO</a>
+			<a class="text-content" href="/order">order</a>
+		    </div>
+		</div>
+		<a class="icon-content" href="/cart"><i class="fas fa-shopping-cart"></i></a>
+	    </nav>
+	</div>
+    </header>
+    <div id="nav-bottom"> 
+	<a class="icon-content" style="margin-right:10px;margin-left:10px" href="/cart"><i class="fas fa-shopping-cart"></i></a>
+	<div class="dropdown">
+	    <a class="icon-content" style="margin-right:10px;margin-left:10px" href="#"><i class="fas fa-user-circle"></i></a>
+	    <div class="dropdown-content" style="bottom: 46px">
+		<a class="text-content" href="/login">LOGIN</a>
+		<a class="text-content" href="/login">SIGNUP</a>
+		<a class="text-content" href="/edit_acc">INFO</a>
+		<a class="text-content" href="/order">order</a>
+	    </div>
+	</div>
+
+	<a class="icon-content" style="margin-right:10px;margin-left:10px" href="#"><i class="fas fa-thumbtack"></i></a>
+	<div class="dropdown">
+	    <a class="icon-content" style="margin-right:20px;margin-left:10px"><i class="fas fa-bars"></i></a>
+	    <div class="dropdown-content" style="bottom: 46px">
+		<a class="text-content" href="/sports"><i class="fas fa-volleyball-ball" style="margin-right: 5px"></i>SPORTS</a>
+		<a class="text-content" href="/food"><i class="fas fa-pizza-slice" style="margin-right: 5px"></i>FOOD</a>
+		<a class="text-content" href="/fashion"><i class="fas fa-tshirt" style="margin-right: 5px"></i>FASHION</a>
+		<a class="text-content" href="/electronic"><i class="fas fa-laptop" style="margin-right: 5px"></i>ELECTRONIC</a>
+		<a class="text-content" href="/pet"><i class="fas fa-paw" style="margin-right: 5px"></i>PET</a>
+		<a class="text-content" href="/home"><i class="fas fa-couch" style="margin-right: 5px"></i>HOME</a>
+		<a class="text-content" href="/stationery"><i class="fas fa-pen" style="margin-right: 5px"></i>stationery</a>
+	    </div>
+	</div>	
+    </div>
+    {{{ body }}}
+    <footer>
+	<div class="placement" style="margin-top: 10px; margin-bottom: 72px"> 
+	    <h1>Power</h1> 
+	    <p>Design by WKH</p>
+	</div>
+    </footer>
+</body>
+</html>
