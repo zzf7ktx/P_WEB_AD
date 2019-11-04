@@ -22,6 +22,7 @@
 	{ "src": "/shopx", "dest": "/" },
 	{ "src": "/edit_shop", "dest": "/" },
 	{ "src": "/new_product", "dest": "/" },
+	{ "src": "/m_orders", "dest": "/" },
 	{ "src": "/edit_product", "dest": "/" }
     ]
 }
