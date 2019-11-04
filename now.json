@@ -17,6 +17,7 @@
 	{ "src": "/pet", "dest": "/" },
 	{ "src": "/edit_acc", "dest": "/" },
 	{ "src": "/detail", "dest": "/" },
+	{ "src": "/order", "dest": "/" },
 	{ "src": "/m_users", "dest": "/" },
 	{ "src": "/m_shops", "dest": "/" },
 	{ "src": "/shopx", "dest": "/" },
