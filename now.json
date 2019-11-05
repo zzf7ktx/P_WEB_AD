@@ -24,6 +24,9 @@
 	{ "src": "/edit_shop", "dest": "/" },
 	{ "src": "/new_product", "dest": "/" },
 	{ "src": "/m_orders", "dest": "/" },
+	{ "src": "/m_stat", "dest": "/" },
+	{ "src": "/m_stat_date", "dest": "/" },
+	{ "src": "/m_stat_shop", "dest": "/" },
 	{ "src": "/edit_product", "dest": "/" }
     ]
 }
